@@ -1,0 +1,20 @@
+msg:
+  test: "&a%s&f, seems like MavenTehPlugin is working well!"
+
+  famous: "&fOhmygosh, &bTehBrian&f!?!? You're like, famous, or something!"
+  goodnight: "&7Goodnight.."
+
+  bucket:
+    careful: "&cWhoa! &fCareful with that!"
+    glad: "&fGlad you did your work safely!"
+
+prefix:
+  default: "&7[&cm&bTeh&7]"
+  bucket: "&7[&2Bucket&7]"
+
+# Server spawn!
+spawn:
+  world: world
+  x: 0.5
+  y: 60
+  z: 0.5

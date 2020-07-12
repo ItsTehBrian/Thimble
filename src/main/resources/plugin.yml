@@ -1,0 +1,24 @@
+name: ${name}
+version: ${version}
+description: ${description}
+author: ${author}
+website: ${url}
+main: ${mainClass}
+api-version: 1.15
+permission-message: &permission-message §cI'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error.
+commands:
+  test:
+    description: Example command.
+    aliases: [maventehplugin]
+    permission: maventehplugin.test
+    permission-message: *permission-message
+    usage: /<command>
+permissions:
+  maventehplugin.test:
+    description: Permission to use /test.
+    default: op
+  maventehplugin.*:
+    description: Complete permission to all of MavenTehPlugin.
+    default: op
+    children:
+      maventehplugin.test: true
